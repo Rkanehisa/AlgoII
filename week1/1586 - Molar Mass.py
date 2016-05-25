@@ -27,7 +27,5 @@ def main():
         print("%.3f" % (calculaMassa(formula)))
         
 pass
-string = input()
-formula = re.findall(r"([A-Z][0-9]*)", string)
-print(formula)
-#main()
+
+main()
