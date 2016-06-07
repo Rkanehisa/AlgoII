@@ -29,5 +29,4 @@ def main():
 		if inp == '#':
 			break
 		print('%10d' % rec_(inp,0))
-	exit(0)
 main()
