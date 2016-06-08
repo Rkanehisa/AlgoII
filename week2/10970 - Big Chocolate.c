@@ -5,4 +5,5 @@ int n,m;
     while(scanf("%d %d",&n, &m)!= EOF){
         printf("%d\n",(n*(m-1))+n-1);
     }
+    return 0;
 }
