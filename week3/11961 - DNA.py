@@ -1,38 +1,3 @@
-"""import itertools
-
-genes = ["A","C","G","T"]
-
-def checkDifferent(DNA,mutations,size):
-    counter = 0
-    for i in range(len(DNA)):
-        if(DNA[i] != mutations[i]):
-            counter +=1
-        if(counter > size):
-            return False
-    return True
-
-def main():
-    nTimes = int(input())
-
-    for i in range(nTimes):
-        m,n = map(int,input().split(" ",1))
-        DNA = list(input())
-        mutations = list([p for p in itertools.product(genes, repeat=m)])
-        DNAList = []
-
-    if(m == n):
-        for i in DNAList:
-            print(i)
-    
-    for i in mutations:
-            if(checkDifferent(DNA,i,n)):
-                DNAList.append(''.join(str(e) for e in i))
-    print(len(DNAList))
-    for i in DNAList:
-        print(i)
-
-main()"""
-
 DNA = []
 genes = ["A","C","G","T"]
 n = 1
