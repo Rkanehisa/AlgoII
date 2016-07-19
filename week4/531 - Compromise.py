@@ -26,7 +26,7 @@ def readUntil(char):
 	buf = ""
 	while True:
 		str1 = input()
-		if str1 == "#":
+		if str1 == char:
 			break
 		buf = buf + str1 + " "
 	buf = buf.split()
