@@ -11,8 +11,7 @@ def stern_brocot_ancestors(p, q):
 
 def main():
 	while True:
-		inp = input().split()
-		p, q = int(inp[0]), int(inp[1])
+		p, q = list(map(int, input().split()))
 		if p == 1 and q == 1:
 			break
 		gen = stern_brocot_ancestors(p,q)
