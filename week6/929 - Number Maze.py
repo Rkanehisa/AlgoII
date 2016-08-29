@@ -52,7 +52,7 @@ def main():
                                 
                         posX,posY = q.get()
                         
-                        if(dj[m-1][n-1] < 1000000):
+                        if(q.empty()):
                                 break
                 print(dj[m-1][n-1])
 main()
